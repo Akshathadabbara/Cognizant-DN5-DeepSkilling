@@ -1,0 +1,33 @@
+# SRP - Single Responsibility Principle
+
+## Definition
+
+A class should have only one reason to change.
+
+OR
+
+A class should have only one responsibility.
+
+---
+
+## Why SRP?
+
+When a class performs multiple tasks:
+
+- Difficult to maintain
+- Difficult to test
+- Difficult to debug
+- Difficult to reuse
+
+SRP helps us separate responsibilities into different classes.
+
+---
+
+## Bad Example
+
+Employee class handling:
+
+- Employee Details
+- Salary Calculation
+- Database Storage
+- Email Notification
